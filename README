@@ -1,0 +1,14 @@
+The user can specify a city to get the current weather data from OpenWeather website.
+First, you need to get your api key from this page: https://openweathermap.org/appid 
+Just follow the instruction on the website and create your own api key.
+
+Once you have your api key ready, create a “secrets.py” file with a line of code: 
+OPEN_WEATHER_API_KEY = "your api key"
+
+Please make sure you have installed requests package, and then run “python3 final_proj.py” from your terminal.
+The city name is not case sensitive, so user doesn't need to worry about the upper case or lower case.
+
+A city might have a lot of different city id. The program will list them all with latitude and longtude in detail
+so that user can choose the destination more specifically.
+
+If user enters a nonsense answer, the program will ask user to enter the correct result again.
