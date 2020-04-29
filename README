@@ -12,3 +12,5 @@ A city might have a lot of different city id. The program will list them all wit
 so that user can choose the destination more specifically.
 
 If user enters a nonsense answer, the program will ask user to enter the correct result again.
+
+The user interface will be completely on the command line prompts.
